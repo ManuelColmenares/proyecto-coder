@@ -50,7 +50,6 @@ box-sizing: border-box;
     justify-content: center;
     padding: 0;
     margin: 0;
-
 }
 .menu li {
     margin-right: 15px;
@@ -232,7 +231,7 @@ button {
 .formulario-contenedor h2 {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 45px;
+    font-size: 30px;
     margin-bottom: 6px;
 }
 .formulario-input{
