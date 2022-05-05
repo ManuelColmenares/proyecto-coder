@@ -73,7 +73,7 @@ box-sizing: border-box;
 /* Contenido de la sección 1 */
 .contendor-seccion1 {
     background-image: url(../img/pastel-fondo.webp);
-    height: 500px;
+    /* height: 500px; */
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,8 +90,8 @@ box-sizing: border-box;
     background-color: rgba(7, 7, 7, 0.5);
     text-align: center;
     color: rgb(252, 252, 252);
-    height: 100px;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
     
 }
 /* Estilos de bonton pedidos */
@@ -125,8 +125,21 @@ button {
    }
 
 /* Contenido de la sección 1 */
+#galeria .col-lg-2 {
+    margin: 0 !important;
+    padding: 15px;
+}
+#galeria img{
+    width: 100%;
+    height: 300px;
+}
 
-.contenedor-seccion-2{
+#galeria img:hover {
+    border: 5px solid #fff;
+}
+/*  Dejo el siguiente código comentado para que la tutora vea todas las lines de código que me ahorre con bootstrap en la galería de imágenes */
+
+/* .contenedor-seccion-2{
     width: 100%;
     margin: auto;
     min-height: 300px;
@@ -158,8 +171,8 @@ button {
 .contenedor-seccion-2-columna p{
     text-align: center;
     color: #fff;
-    background-color: #5e5e5e;
-}
+    background-color: #5e5e5e; 
+}*/
 /* ------- Estilos de la página sobremi.html ----------- */
 
 .about{
@@ -301,9 +314,11 @@ button {
     border-radius: 10px;
 }
 
-/*Estilos Página de Productos */
+/*Estilos Página de pedidos.html */
 
-.contenedor-pasteles {
+/*  Dejo el siguiente código comentado para que la tutora vea todas las lines de código que me ahorre con bootstrap en la galería de imágenes */
+
+/* .contenedor-pasteles {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -334,7 +349,7 @@ button {
 .pasteles-img{
     flex: 25%;
     padding: 5px;
-}
+} */
 
 
 
