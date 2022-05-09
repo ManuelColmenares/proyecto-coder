@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    /* ------- Estilos del header ----------- */
+            /* Cabecera */
+    /* Container Sidebar */
+    .cabecera {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 10px;
+        min-height: 150px;
+        background-color: #ebebeb;
+    
+    }
+    
+    /* Logo y Título */
+    .cabecera-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .cabecera-logo img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: solid 2x #ffff;
+        margin-right: 20px;
+    }
+    .cabecera-logo h1 {
+        font-size: 30px;
+        font-family: 'Beau Rivage', cursive;
+        color: #616161;
+    }
+    .cabecera a {
+        text-decoration: none;
+    }
+    /* Barra de Navegación */
+    .cabecera-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu {
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    .menu li {
+        margin-right: 15px;
+        list-style: none;
+        
+    }
+    .links a {
+        text-decoration: none;
+        font-size: 11.5px;
+        font-family: 'Open Sans', sans-serif;
+        color: #616161;
+    }
+    .links a:hover {
+        background-color: #7e7c7c;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+    
+    /* ------- Estilos del index.html ----------- */
+    
+    /* Contenido de la sección 1 */
+    .contendor-seccion1 {
+        background-image: url(../img/pastel-fondo.webp);
+        /* height: 500px; */
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .contendor-seccion1 .subtitulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(7, 7, 7, 0.5);
+        text-align: center;
+        color: rgb(252, 252, 252);
+        /* height: 100%;
+        width: 100%; */
+        
+    }
+    /* Estilos de bonton pedidos */
+    
+    button {
+        background-color: rgba(7, 7, 7, 0.5);
+        border: none;
+        padding: 16px;
+        font-size: 16px;
+        width: 150px;
+        border-radius: 16px;
+        font-size: 14px;
+        color: #f08080;
+        box-shadow: 0 6px #f08080;
+        cursor: pointer;
+       } 
+       button:active {
+        color: #ffffff;
+        box-shadow: 0 3px #dadfd9;
+        transform: translateY(5px);
+       }
+       button:hover:not(:disabled) {
+        background: rgba(97, 97, 97, 0.5);
+        color: #ffffff;
+        text-shadow: 0 1px #5c5c5c;
+        
+       }
+       button:disabled {
+        cursor: auto;
+        color: #808080;
+       }
+    
+    /* Contenido de la sección 1 */
+    #galeria .col-lg-2 {
+        margin: 0 !important;
+        padding: 15px;
+    }
+    #galeria img{
+        width: 100%;
+        height: 300px;
+    }
+    
+    #galeria img:hover {
+        border: 5px solid #fff;
+    }
+    /*  Dejo el siguiente código comentado para que la tutora vea todas las lines de código que me ahorre con bootstrap en la galería de imágenes */
+    
+    /* .contenedor-seccion-2{
+        width: 100%;
+        margin: auto;
+        min-height: 300px;
+        background-color: #ebebeb;
+        border-top: solid 15px #f8f6f6;
+    }
+    .contenedor-seccion-2-galeria {
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+    }
+    .contenedor-seccion-2-columna{
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px #c4c4c4;
+    }
+    .contenedor-seccion-2-columna img {
+        width: 100%;
+    }
+    .contenedor-seccion-2-columna h3{
+        width: 100%;
+        text-align: center;
+        background-color: #c4c0c0;
+        border-top: solid 2px #fff;
+        border-bottom: solid 2px #fff;
+    }
+    .contenedor-seccion-2-columna p{
+        text-align: center;
+        color: #fff;
+        background-color: #5e5e5e; 
+    }*/
+    /* ------- Estilos de la página sobremi.html ----------- */
+    
+    .about{
+        width: 100%;
+        height: 670px;
+        flex-flow: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .about-content{
+        display: flex;
+        justify-content: center;
+    }
+    .about-content img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: solid 5px #cccaca;
+    
+    }
+    .about article h2{
+        width: 300px;
+        text-align: center;
+        font-size: 28px;
+    }
+    .about article p{
+        width: 300px;
+        text-align: justify;
+    }
+    /* ------- Estilos de la página contacto.html ----------- */
+    
+    .contenedor-contacto-seccion1 {
+        width: 100%;
+    }
+    .contenedor-contacto-map{
+        width: 350px;
+        height: 300px;
+        background-color: #7e7c7c;
+    }
+    .contenedor-contacto-description {
+        width: 350px;
+        height: 300px;
+        background-color: #883e3e;
+    }
+    /* ------- Estilos de la página pedido.html ----------- */
+    .contenedor-formulario {
+        background-color: #cccaca;
+        margin-top: 30px;
+        min-height: 70vh;
+        width: 100%;
+        display: flex;
+    }
+    .formulario {
+        background-color: #fff;
+        width: 90%;
+        max-width: 400px;
+        margin: auto;
+        border-radius: 16px;
+        padding: 56px 24px ;
+    }
+    .formulario-contenedor {
+        width: 100%;
+        display: grid;
+        gap: 16px;
+        grid-auto-columns: 100%;
+    }
+    .formulario-contenedor h2 {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        margin-bottom: 6px;
+    }
+    .formulario-input{
+        font-size: 16px;
+        padding: 12px 16px;
+        outline: none;
+        border: none;
+        border: 1px solid #e9e9e9;
+        border-radius: 3px;
+    }
+    .formulario-input-mensaje {
+        resize: none;
+        padding: 16px 16px;
+        margin-bottom: 8px;
+        height: 100px;
+    }
+    .formulario-btn{
+        font-family: inherit;
+        font-size: 20px;
+        background-color: #333333;
+        color: #fff;
+        
+    }
+    .formulario-btn:hover, .formulario-btn:active {
+        box-shadow: 2px 4px #c4c3c3;
+        border-radius: 3px;
+        -webkit-transform: translate(0px,5px);
+        -ms-transform: translate(0px,5px);
+        transform: translate(0px,5px);
+       }
+    
+    /* ------- Estilos de la página contacto.html ----------- */
+    .contenedor-contacto {
+        background-color: #cccaca;
+        margin-top: 30px;
+        min-height: 70vh;
+        width: 100%;
+        display: flex;
+    }
+    .contenedor-contacto-seccion1 {
+        background-color: #fff;
+        width: 90%;
+        max-width: 800px;
+        margin: auto;
+        border-radius: 16px;
+        padding: 56px 24px ;
+    }
+    .contenedor-contacto-seccion1-contenido {
+        width: 100%;
+        display: grid;
+        gap: 16px;
+        grid-auto-columns: 100%;
+    }
+    .contacto-colum1  h2{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .contacto-colum {
+        margin-bottom: 20px;
+    }
+    .icons-contacto{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .map {
+        border: solid 5px #883e3e;
+        border-radius: 10px;
+    }
+    
+    /*Estilos Página de pedidos.html */
+    
+    /*  Dejo el siguiente código comentado para que la tutora vea todas las lines de código que me ahorre con bootstrap en la galería de imágenes */
+    
+    /* .contenedor-pasteles {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .titulo-pasteles{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .titulo-pasteles h2 {
+        margin:25px 0;
+        padding: 8px 0;
+        font-size: 24px;
+        background-color: #cccaca;
+    }
+    .titulo-pasteles p {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+                
+    }
+    .pasteles-seccion1{
+        display: flex;
+        padding: 5px;
+        margin-top: 15px;
+        flex-wrap: wrap;
+    }
+    .pasteles-img{
+        flex: 25%;
+        padding: 5px;
+    } */
+    
+    
+    
+    
+    /* ------- Estilos del footer ----------- */
+    
+    .pie-pag {
+        background-color: #333333;
+        color: #fff;
+        height: 80px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+                    /* Medias */
+    /* CABECERA */
+    @media screen and (min-width:680px) {
+        .cabecera {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .cabecera-logo {
+            display: flex;
+            flex-direction: row;
+        }
+        .contendor-seccion1 {
+             height: 770px;
+        }
+    }
+    
+    @media screen and (min-width:600px) {
+        .contenedor-seccion-2-galeria {
+            grid-template-columns:repeat(3,33.3%);
+        }    
+    }
+    @media screen and (min-width:800px) {
+        .contenedor-seccion-2-galeria {
+            grid-template-columns:repeat(4,25%);
+        }
+        .about-content img{
+            width: 400px;
+            height: 400px;
+        }
+    }
+    
+    
+    
+    @media screen and (min-width:1100px) {
+        .contenedor-seccion-2-galeria {
+            grid-template-columns:repeat(6,16.6%);
+        }
+    }
+    
+    @media screen and (min-width:566px) {
+        .about-content{
+            margin-right: 50px;
+        }
+        .links a {
+            font-size: 14px;
+            
+        }   
+        
+    }
