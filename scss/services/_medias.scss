@@ -1,0 +1,50 @@
+                    /* Medias */
+    /* CABECERA */
+    @media screen and (min-width:680px) {
+        .cabecera {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .cabecera-logo {
+            display: flex;
+            flex-direction: row;
+        }
+        .contendor-seccion1 {
+             height: 770px;
+        }
+    }
+    
+    @media screen and (min-width:600px) {
+        .contenedor-seccion-2-galeria {
+            grid-template-columns:repeat(3,33.3%);
+        }    
+    }
+    @media screen and (min-width:800px) {
+        .contenedor-seccion-2-galeria {
+            grid-template-columns:repeat(4,25%);
+        }
+        .about-content img{
+            width: 400px;
+            height: 400px;
+        }
+    }
+    
+    
+    
+    @media screen and (min-width:1100px) {
+        .contenedor-seccion-2-galeria {
+            grid-template-columns:repeat(6,16.6%);
+        }
+    }
+    
+    @media screen and (min-width:566px) {
+        .about-content{
+            margin-right: 50px;
+        }
+        .links a {
+            font-size: 14px;
+            
+        }   
+        
+    }

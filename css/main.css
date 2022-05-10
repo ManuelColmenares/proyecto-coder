@@ -8102,6 +8102,16 @@ button:disabled {
         flex: 25%;
         padding: 5px;
     } */
+/* ------- Estilos del footer ----------- */
+.pie-pag {
+  background-color: #333333;
+  color: #fff;
+  height: 80px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 /* Medias */
 /* CABECERA */
 @media screen and (min-width: 680px) {
@@ -8135,13 +8145,3 @@ button:disabled {
     margin-right: 50px; }
   .links a {
     font-size: 14px; } }
-
-/* ------- Estilos del footer ----------- */
-.pie-pag {
-  background-color: #333333;
-  color: #fff;
-  height: 80px;
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
