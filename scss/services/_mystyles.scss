@@ -70,42 +70,7 @@
     #galeria img:hover {
         border: 5px solid #fff;
     }
-    /*  Dejo el siguiente código comentado para que la tutora vea todas las lines de código que me ahorre con bootstrap en la galería de imágenes */
-    
-    /* .contenedor-seccion-2{
-        width: 100%;
-        margin: auto;
-        min-height: 300px;
-        background-color: #ebebeb;
-        border-top: solid 15px #f8f6f6;
-    }
-    .contenedor-seccion-2-galeria {
-        display: grid;
-        grid-template-columns: repeat(2,50%);
-    }
-    .contenedor-seccion-2-columna{
-        margin: 5px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border: solid 1px #c4c4c4;
-    }
-    .contenedor-seccion-2-columna img {
-        width: 100%;
-    }
-    .contenedor-seccion-2-columna h3{
-        width: 100%;
-        text-align: center;
-        background-color: #c4c0c0;
-        border-top: solid 2px #fff;
-        border-bottom: solid 2px #fff;
-    }
-    .contenedor-seccion-2-columna p{
-        text-align: center;
-        color: #fff;
-        background-color: #5e5e5e; 
-    }*/
+   
     /* ------- Estilos de la página sobremi.html ----------- */
     
     .about{
@@ -282,24 +247,8 @@
     .pasteles-img{
         flex: 25%;
         padding: 5px;
-    } */
-    
-    
-    
-    
-    /* ------- Estilos del footer ----------- */
-    
-    .pie-pag {
-        background-color: #333333;
-        color: #fff;
-        height: 80px;
-        margin-top: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    
+    } */   
+
                     /* Medias */
     /* CABECERA */
     @media screen and (min-width:680px) {
