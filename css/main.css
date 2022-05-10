@@ -7833,18 +7833,16 @@ textarea.form-control-lg {
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px; }
-
-.cabecera-logo img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border: solid 2x #ffff;
-  margin-right: 20px; }
-
-.cabecera-logo h1, .cabecera-logo .h1 {
-  font-size: 30px;
-  font-family: 'Beau Rivage', cursive;
-  color: #616161; }
+  .cabecera-logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: solid 2x #ffff;
+    margin-right: 20px; }
+  .cabecera-logo h1, .cabecera-logo .h1 {
+    font-size: 30px;
+    font-family: 'Beau Rivage', cursive;
+    color: #616161; }
 
 .cabecera a {
   text-decoration: none; }
