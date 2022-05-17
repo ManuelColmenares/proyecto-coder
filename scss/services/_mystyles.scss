@@ -2,6 +2,14 @@
     
     
     /* ------- Estilos del index.html ----------- */
+
+    $fsizes: (
+        "small": 16px, 
+        "normal": 20px, 
+        "large": 28px,
+        "xlarge": 30px
+    
+    );
     
     /* Contenido de la sección 1 */
     .contendor-seccion1 {
@@ -33,10 +41,9 @@
         background-color: rgba(7, 7, 7, 0.5);
         border: none;
         padding: 16px;
-        font-size: 16px;
+        font-size: map-get($fsizes,"small");
         width: 150px;
         border-radius: 16px;
-        font-size: 14px;
         color: #f08080;
         box-shadow: 0 6px #f08080;
         cursor: pointer;
@@ -96,7 +103,7 @@
     .about article h2{
         width: 300px;
         text-align: center;
-        font-size: 28px;
+        font-size: map-get($fsizes,"large");
     }
     .about article p{
         width: 300px;
@@ -142,11 +149,11 @@
     .formulario-contenedor h2 {
         text-align: center;
         font-family: 'Open Sans', sans-serif;
-        font-size: 30px;
+        font-size: map-get($fsizes,"xlarge");
         margin-bottom: 6px;
     }
     .formulario-input{
-        font-size: 16px;
+        font-size: map-get($fsizes,"small");
         padding: 12px 16px;
         outline: none;
         border: none;
@@ -161,7 +168,7 @@
     }
     .formulario-btn{
         font-family: inherit;
-        font-size: 20px;
+        font-size: map-get($fsizes,"normal");
         background-color: #333333;
         color: #fff;
         
@@ -204,7 +211,7 @@
         margin-bottom: 20px;
     }
     .icons-contacto{
-        font-size: 20px;
+        font-size: map-get($fsizes,"normal");
         padding: 5px;
     }
     .map {
