@@ -5142,7 +5142,7 @@ textarea.form-control-lg {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex {
+.d-flex, .cabecera, .cabecera-logo {
   display: flex !important; }
 
 .d-inline-flex {
@@ -7818,10 +7818,15 @@ textarea.form-control-lg {
 /* ------- Estilos del header ----------- */
 /* Cabecera */
 /* Container Sidebar */
-.cabecera {
+/* Variable */
+.d-flex, .cabecera, .cabecera-logo {
+  /* Clase para el extend */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; }
+
+.cabecera {
+  /* Exetend */
   width: auto;
   padding: 10px;
   min-height: 150px;
@@ -7831,11 +7836,10 @@ textarea.form-control-lg {
 
 /* Logo y Título */
 .cabecera-logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* Extend */
   margin-bottom: 20px; }
   .cabecera-logo img {
+    /* Mixin */
     width: 60px;
     height: 60px;
     border-radius: 50%;

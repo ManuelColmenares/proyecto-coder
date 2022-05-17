@@ -2,16 +2,19 @@
             /* Cabecera */
     /* Container Sidebar */
 
-    $bg-h: #ebebeb;
-    @mixin size ($ancho, $alto) {
+    $bg-h: #ebebeb; /* Variable */
+    @mixin size ($ancho, $alto) { /* Mixin */
         width: $ancho;
         height: $alto;
     }
-
-    .cabecera {
+    .d-flex {   /* Clase para el extend */
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .cabecera {
+        @extend .d-flex;    /* Exetend */
         width: auto;
         padding: 10px;
         min-height: 150px;
@@ -24,9 +27,7 @@
     
     /* Logo y Título */
     .cabecera-logo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @extend .d-flex;    /* Extend */
         margin-bottom: 20px;
         img {
             @include size(60px, 60px)
